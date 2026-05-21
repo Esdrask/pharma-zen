@@ -54,7 +54,8 @@ nav.navbar ol{
 
 /*##### Hero #####*/
 div.hero img{
-    width: 100%
+    width: 100%;
+    
 }
 
 /* ##### content ##### */
@@ -72,9 +73,52 @@ div.content{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1E38;
+
+    
 }
 
 div.content img {
     height: 180px;
     border-radius: 50%;
 }
+
+div.covid-test-content{
+    display: flex;
+    justify-content: center;
+}
+
+div.covid-test-content img{
+    width: 75%;
+}
+
+
+
+div.proteja {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+}
+
+div.proteja p1{
+    color: #2541B2;
+}
+
+div.botao_proteja{
+    display: flex;
+    justify-content: center;
+    background-color: #2541B2;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    color: #fff;
+    
+}
+
+
+
